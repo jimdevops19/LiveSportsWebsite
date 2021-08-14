@@ -1,12 +1,11 @@
 setInterval(function() {
     fetch("/info_json")
         .then(response => response.json())
-        .then(_data =>
-            data = _data
+        .then(data =>
+            data.forEach(match=>
+                updateElement(match)
+            )
         );
-    data.forEach(match =>
-        updateElement(match)
-    )
 }, 1000);
 
 function updateElement(match) {
