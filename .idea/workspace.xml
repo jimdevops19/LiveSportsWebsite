@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f453446d-a4d6-489f-b705-12f4c0b0ee8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codesnippets/blinkUpdate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f453446d-a4d6-489f-b705-12f4c0b0ee8e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/codesnippets/blinkUpdate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="261">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -227,12 +224,12 @@
       <workItem from="1628715831656" duration="18952000" />
       <workItem from="1628797713443" duration="1991000" />
       <workItem from="1628866833263" duration="695000" />
-      <workItem from="1628874963970" duration="10353000" />
+      <workItem from="1628874963970" duration="10978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32501000" />
+    <option name="totallyTimeSpent" value="33126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-27" width="1936" height="1056" extended-state="6" />
@@ -416,8 +413,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/codesnippets/blinkUpdate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        <state relative-caret-position="261">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>

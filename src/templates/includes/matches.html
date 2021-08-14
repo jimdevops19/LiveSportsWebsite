@@ -1,0 +1,60 @@
+<table class="table table-dark table-striped">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Starting Time</th>
+      <th scope="col">Team A</th>
+      <th scope="col">Score</th>
+      <th scope="col">Team B</th>
+      <th scope="col">Minute</th>
+    </tr>
+  </thead>
+  <tbody id="table_body">
+    {% for match in matches %}
+      <tr>
+        <td id="id_{{ match.id }}">{{ match.id }}</td>
+        <td id="starting_time_{{ match.id }}">{{ match.starting_time }}</td>
+        <td id="team_a_{{ match.id }}">{{ match.team_a }}</td>
+        <td id="score_{{ match.id }}">{{ match.score }}</td>
+        <td id="team_b_{{ match.id }}">{{ match.team_b }}</td>
+        <td id="minute_{{ match.id }}">{{ match.minute }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+<script>
+  setInterval(function() {
+      fetch('/data_json').then(
+        response => response.json()
+      ).then(
+        data =>
+          data.forEach(match =>
+            updateElement(match)
+          )
+      )
+    }, 1000
+  );
+
+function updateElement(match) {
+    Object.entries(match).forEach(([k,v]) => {
+        element = document.getElementById(k + "_" + match.id);
+        // Get Previous value first
+        previousValue = element.innerHTML;
+
+        // If Previous value is not equal to the new value, change it!
+        if (previousValue !== v.toString()) {
+            blinkUpdate(element, v.toString())
+        }
+    })
+}
+
+function blinkUpdate(element, newValue, newColor='#00ff00') {
+    previousColor = element.style.color;
+    element.innerHTML = newValue;
+    element.style.color = newColor;
+    // Set back to original color after timeout ms
+    setTimeout(() => {
+        element.style.color = previousColor
+    }, 2000)
+}
+</script>
