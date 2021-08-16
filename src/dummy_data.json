@@ -1,0 +1,74 @@
+[
+      {
+          "id" : 1,
+          "starting_time" : "13:00",
+          "team_a" : "Random Team 1",
+          "score" : "2 - 0",
+          "team_b" : "Random Team 2",
+          "minute" : ""
+      },
+      {
+          "id" : 2,
+          "starting_time" : "13:05",
+          "team_a" : "Random Team 3",
+          "score" : "1 - 2",
+          "team_b" : "Random Team 4",
+          "minute" : ""
+      },
+      {
+          "id": 3,
+          "starting_time": "13:10",
+          "team_a": "Random Team 5",
+          "score": "2 - 1",
+          "team_b": "Random Team 6 ",
+          "minute" : ""
+      },
+      {
+          "id" : 4,
+          "starting_time" : "13:15",
+          "team_a" : "Random Team 7",
+          "score" : "1 - 1",
+          "team_b" : "Random Team 8",
+          "minute" : ""
+      },
+      {
+          "id" : 5,
+          "starting_time" : "13:20",
+          "team_a" : "Random Team 9",
+          "score" : "0 - 0",
+          "team_b" : "Random Team 10",
+          "minute" : ""
+      },
+      {
+          "id": 6,
+          "starting_time": "13:25",
+          "team_a": "Random Team 11",
+          "score": "0 - 0",
+          "team_b": "Random Team 12",
+          "minute" : ""
+      },
+      {
+          "id": 7,
+          "starting_time": "18:00",
+          "team_a": "Random Team 13",
+          "score": "0 - 0",
+          "team_b": "Random Team 14",
+          "minute" : "GAME STARTS SOON"
+      },
+      {
+          "id": 8,
+          "starting_time": "18:00",
+          "team_a": "Random Team 15",
+          "score": "0 - 0",
+          "team_b": "Random Team 16",
+          "minute" : "GAME STARTS SOON"
+      },
+      {
+          "id": 9,
+          "starting_time": "18:00",
+          "team_a": "Random Team 17",
+          "score": "0 - 0",
+          "team_b": "Random Team 18",
+          "minute" : "GAME STARTS SOON"
+      }
+  ]
